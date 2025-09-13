@@ -6,7 +6,7 @@ import time
 
 # --- Firebase Setup ---
 if not firebase_admin._apps:   # 👈 yaha pe check lagaya
-    cred = credentials.Certificate("C:/Users/yashp/Downloads/hackindore-b8070-firebase-adminsdk-fbsvc-434bc483cc.json")
+    cred = credentials.Certificate(r"C:\Users\Poorvi\Downloads\hackindore-b8070-firebase-adminsdk-fbsvc-434bc483cc.json")
     firebase_admin.initialize_app(cred, {
         "databaseURL": "https://hackindore-b8070-default-rtdb.asia-southeast1.firebasedatabase.app/"
     })
